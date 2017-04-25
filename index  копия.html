@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Домашняя работа
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width">
+     <style> 
+         body{
+             background-color: aquamarine
+         }
+         li{
+             padding: 10px;
+             border: solid ;
+             text-decoration: none;
+                              margin: 10px
+             
+         }
+             nav{
+                 left: -250px;
+                 top:0;
+                 position: fixed;
+                 width: 250px;
+                 height: 100vh;
+                 background-color: white;
+                 transition: .5s
+
+             }
+
+         button{
+             position: absolute;
+             top: 20px;
+             right: -100px
+         }
+         .vis{
+             left: 0;
+             
+         }
+    </style>
+</head>
+<body>
+<main>
+    <nav id="menu">
+        <ul>
+            <li>Статья 1</li>
+            <li>Статья 2</li>
+            <li>Статья 3</li>
+        </ul>
+        <button id="hide">Открыть</button>
+    </nav>
+
+   </main>
+   
+   <script>
+       hide.addEventListener('click', function(){
+                      menu.classList.toggle('vis');      
+                             });
+    </script>
+   
+    </body>
+
+</html>
