@@ -141,11 +141,20 @@ margin-bottom: 5px
              .cit, h1{
                  font-size: 2rem
              }
+             
             
          }
          @media (max-width: 400px) {
              .cit, h1{
                  font-size: 1.2rem
+             }
+             .per2{
+                 height: 50px;
+                 width: 50px
+             }
+             .per3{
+                 height: 50px;
+                 width: 50px
              }
              
          }
@@ -170,41 +179,23 @@ p::first-letter{
              color: #01a7ff;
              font-size: 1.4rem
          }
-         @keyframes gll(){
-             0%, 100%{
-                 background-image: url('31.jpg');
-             }
 
-             25%{
-                 background-image: url('32.jpg');
-             }
-
-             50%{
-                 background-image: url('33.jpg');
-             }
-
-             75%{
-                 background-image: url('34.jpg');
-             }
-
-         }
-         
          @keyframes gall{
             0%, 100% {
-                background-image: url('31.jpeg');
+                background: 50%/cover no-repeat url('31.jpeg');
             }
             25% {
-                background-image: url('32.jpg');
+                background: 50%/cover no-repeat url('32.jpg');
                 
             }
             
             50% {
-                background-image: url('33.jpg');
+                background: 50%/cover no-repeat url('33.jpg');
                 color: black
             }
             
             75% {
-                background-image: url('34.jpg');
+                background: 50%/cover no-repeat url('34.jpg');
                 color: white;
                 
             }
@@ -295,7 +286,7 @@ animation: per 10s ease-in-out  infinite    ;
       
       <div class=gall><div class=cit><b>Когда собирается слишком много мусора, самое лучшее — переработать его.</b></div></div>
 
-  <h2>Интересные факты о переработке</h2>
+  <h2 class=lin>Интересные факты о переработке</h2>
 
    <p>Около 50 миллионов тонн мусора от использованных сотовых телефонов и компьютеров образуется ежегодно по всему миру. Этого хватит, чтобы опоясать земной шар грузовиками с этими отходами наполовину.</p>
     <p>Более 70% электронного мусора заканчивает свое существование в Китае, большая часть из которого перерабатывается семейными предприятиями. Методы переработки часто рудиментарны, и они могут вызывать серьезное загрязнение окружающей среды и воздействовать на здоровье людей.</p>
@@ -320,7 +311,7 @@ animation: per 10s ease-in-out  infinite    ;
   <footer>
       <p>Автор сайта: Ковыршин Кирилл</p>
       <p>Город: Воронеж</p>
-     <p> Школа: Лицей №7</p>
+     <p> Школа: МБОУ Лицей №7</p>
      <p> 2017 г.</p>
   </footer>
    </main>
